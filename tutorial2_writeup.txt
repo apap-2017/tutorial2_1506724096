@@ -1,0 +1,20 @@
+Fajar Marseto
+1506724096
+APAP Kelas A
+Tutrial 2
+
+Pada tutorial2 ini saya telah mempelajari bagaimana penggunaan spring boot
+pada program sederhana yang terdiri dari Controller dan View. Pada page 
+Controller berisikan method-method(perintah) yang akan kita jalankan. Pada
+page View berisikan program html yang berguna untuk menampilkan methoad yang
+telah kita buat di page Controller. Beberapa anotasi yang dipelajari di page
+Controller :
+1. @Controller --> anotasi yang digunakan untuk menunjukkan sebuah class dalam
+sebuah controller, biasanya terdiri dari method-method yang berhubungan langsung
+dengan http request dan request mapping.
+2. @Requestmapping --> anotasi yang digunakan untuk menentukan bahwa request
+menuju ke sebuah alamat (http://localhost:8080/) akan ditangani oleh method ini.
+3. @RequestParam --> anotasi yang digunakan untuk menentukan parameter yang akan
+dipanggil oleh @Requestmapping dan mengambil value dari parameter tersebut.
+4. @PathVariable --> anotasi yang digunakan untuk membaca variable di Url 
+tanpa adanya parameter dan mengirimkan nilainya ke class java.
